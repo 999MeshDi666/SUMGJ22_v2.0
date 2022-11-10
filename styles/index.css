@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Ruthie&display=swap');
+@import "./loader-styles/loader.css";
+@import "./loader-styles/loader-responsive.css";
+@import "./main-styles/main.css"; 
+@import "./main-styles/main-responsive.css"; 
+@import "./about-styles/about.css"; 
+body {
+  
+  background-color: rgb(34, 34, 34);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body,
+h1, h2, h3, h4, h5, h6, 
+ul, ol, dd,
+p,a,
+fieldset,
+input,
+textarea,
+button{
+  margin:0; 
+  padding:0; 
+  color:#fff;
+  font-family: 'Red Hat Text', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  
+}
+ul, ol, dd { 
+  list-style:none; 
+}
+fieldset, 
+input,
+button { 
+  border-width:0; 
+  outline: none;
+}
+a { 
+  text-decoration:none;   
+}
+
+
+.texture::after{
+  content: "";
+  background: url("../images/loader-texture.webp");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: 4;
+}
+
+.wrapper{
+    z-index: 5;
+}
+
+.navigation{
+    position: fixed;
+}
