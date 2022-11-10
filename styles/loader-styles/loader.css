@@ -147,9 +147,10 @@
     font-size: 42px;
     letter-spacing: 16px;
     text-transform: uppercase;
-    transition: linear .6s;
+
     z-index: 5;
     opacity: 0;
+    /* transition: linear .6s; */
     animation: start_ease-in 1s forwards 3s 1;
 }
 @keyframes start_ease-in {
